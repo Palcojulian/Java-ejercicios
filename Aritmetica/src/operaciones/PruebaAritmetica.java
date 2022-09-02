@@ -1,6 +1,4 @@
-
 package operaciones;
-
 
 public class PruebaAritmetica {
     
@@ -13,7 +11,8 @@ public class PruebaAritmetica {
         
         PruebaAritmetica ob1 = new PruebaAritmetica();//Se guarda en la memoria heap
         
-        
+        ob1.miMetodo(a);
+        System.out.println(ob1.multiplicar(b));
         
         Aritmetica aritmetica1 = new Aritmetica();
         
@@ -30,6 +29,10 @@ public class PruebaAritmetica {
         System.out.println("Otro metodo con sus propias variables locales " + c);
         this.c = c + 2;
         System.out.println("Otro metodo con sus propias variables locales " + this.c);
+    }
+    
+    public int multiplicar(int c){
+        return 2 * c;
     }
     
 }

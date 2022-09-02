@@ -8,8 +8,7 @@ public class Aritmetica {
 
     //Cnstructor se llama igual que la clase, este constructor esta vacio
     public Aritmetica(){ //El constructor vacio siempre se va aagregar automaticamente, si no lo definimos, bueno en el IDE de neatbeans
-        System.out.println("Ejecutanto constructor");
-            
+        System.out.println("Ejecutanto constructor sin argumentos"); 
     }
     
     //Agregar dos o mas constructores dentro de la misma clase se le llama sobrecarga de constructores
@@ -18,7 +17,6 @@ public class Aritmetica {
         this.b = b;
         System.out.println("Ejecutando constructor con argumentos");
     }
-    
     
     //Metodos 
     public void sumar() { //Se define el metod, Void quiere decir que no devuelve nada 
