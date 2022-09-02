@@ -25,7 +25,6 @@ public class Persona {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
-
     
     @Override
     public String toString() {
@@ -36,5 +35,4 @@ public class Persona {
         sb.append("-->").append(super.toString());
         return sb.toString();
     }
-    
 }
