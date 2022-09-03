@@ -14,10 +14,7 @@ public class TestArreglosObject {
         personas[3] = new Persona("Vilma", "Picapiedra");
         personas[4] = new Persona("Goku", "God");
         
-        System.out.println("El tamaño de la lista de objetos es de: " + personas.length);
-        for(int i = 0; i < personas.length; i++){
-            System.out.println("personas [" + i + "] " + personas[i]);
-        }
+        imprimirLista(personas);
         
         System.out.println("--------------------------------------");
         

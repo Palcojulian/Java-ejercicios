@@ -41,18 +41,20 @@ public class TestMatrices {
         personas[1][1] = new Persona("Cristina");
         personas[1][2] = new Persona("Pedro");
         imprimir(personas);
-         
+        
+        String caramelos[][] = { {"bonice", "Barrilete","Big cola"} ,{"Arroz", "Pepino","Papas"},{"Coca-Cola", "Pepsi", "Frutiño"}};
+        imprimir(caramelos);
     }
     
     public static void imprimir(Object matriz[][]){
-        
         for (int fila = 0; fila < matriz.length; fila++) {
             for (int colum = 0; colum < matriz[fila].length; colum++) {
-                if(fila == 0){
-                    System.out.println("matriz [" + fila + "]" + "[" + colum + "]: " + matriz[fila][colum]);
-                }else if(fila == 1){
-                    System.out.println("matriz [" + fila + "]" + "[" + colum + "]: " + matriz[fila][colum]);
-                }
+                System.out.println("matriz [" + fila + "]" + "[" + colum + "]: " + matriz[fila][colum]);
+//                if(fila == 0){
+//                    System.out.println("matriz [" + fila + "]" + "[" + colum + "]: " + matriz[fila][colum]);
+//                }else if(fila == 1){
+//                    System.out.println("matriz [" + fila + "]" + "[" + colum + "]: " + matriz[fila][colum]);
+//                }
             }
         }
         

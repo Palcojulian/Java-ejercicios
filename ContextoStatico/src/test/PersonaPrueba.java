@@ -14,6 +14,10 @@ public class PersonaPrueba {
         imprimir(persona1);
         imprimir(persona2);
         
+        System.out.println(persona2);
+        PersonaPrueba ob1 = new PersonaPrueba();
+        ob1.getContador();
+        
         //contador; Una variable no estatica no puede ser referenciada desde un metodo estatico 
     }
     

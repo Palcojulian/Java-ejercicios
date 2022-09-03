@@ -12,7 +12,7 @@ public class Empleado extends Persona{ //Extiende de la clase padre Persona, her
     
     public Empleado(String nombre, double sueldoEmpleado) {
         //super(nombre);
-        this();//Llamamos el constructor vacio, porque no tiene ningun argumento
+        this();//Llamamos el constructor vacio, porque no tiene ningun argumento. Para inicializar el contador
         this.nombre = nombre;
         this.sueldoEmpleado = sueldoEmpleado;
     }

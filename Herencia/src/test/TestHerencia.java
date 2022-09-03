@@ -19,6 +19,7 @@ public class TestHerencia {
         
         System.out.println(cliente1);
         
-        
+        Persona persona1 = new Persona("Libardo", 'M', 21, "mondomo");
+        System.out.println(persona1);
     }
 }
